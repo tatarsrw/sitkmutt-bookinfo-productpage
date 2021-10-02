@@ -1,1 +1,1 @@
-# sitkmutt-bookinfo-productpage
+# Bookinfo Application for Workshop

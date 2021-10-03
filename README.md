@@ -13,13 +13,13 @@ python productpage.py 9080
 # How to run with Docker
 
 ```bash
-# Build Docker Image for products service
-docker build -t products .
+# Build Docker Image for product service
+docker build -t productpage .
 
-# Run products service on port 8083
-docker run -d --name products -p 8082:9080 products
+# Run product service on port 8083
+docker run -d --name productpage -p 8083:8083 productpage
 ```
-* Test with path /products/1 and /health
+* Test with path /productpage and /health
 
 ## Website
 

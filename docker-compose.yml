@@ -5,7 +5,7 @@ services:
     ports:
       - "8083:9080"
     environment:
+      RATINGS_HOSTNAME: "http://ratings:8080/"
       DETAILS_HOSTNAME: "http://details:8081/" 
-      RATINGS_HOSTNAME: "http://ratings:8080/" 
       REVIEWS_HOSTNAME: "http://reviews:8082/" 
       FLOOD_FACTOR: 0

@@ -6,6 +6,6 @@ COPY . /usr/src/app/
 
 RUN pip install -r requirements.txt
 
-EXPOSE 8083
+EXPOSE 9080
 
 CMD [ "python", "/usr/src/app/productpage.py", "8083"]
